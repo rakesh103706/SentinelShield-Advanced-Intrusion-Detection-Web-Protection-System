@@ -1,0 +1,2 @@
+# SentinelShield-Advanced-Intrusion-Detection-Web-Protection-System
+SentinelShield is a simplified yet realistic Intrusion Detection and Web Protection System designed to simulate the behavior of a lightweight Web Application Firewall. The system inspects incoming HTTP requests, detects malicious patterns, monitors abnormal traffic behavior, analyzes logs, and generates alerts for suspicious activities.
