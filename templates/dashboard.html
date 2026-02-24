@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SentinelShield Dashboard</title>
+</head>
+<body>
+    <h2>Intrusion Detection Dashboard</h2>
+    <table border="1">
+        <tr>
+            <th>IP Address</th>
+            <th>Attack Type</th>
+            <th>Timestamp</th>
+        </tr>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log[0] }}</td>
+            <td>{{ log[1] }}</td>
+            <td>{{ log[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
